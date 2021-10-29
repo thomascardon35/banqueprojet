@@ -264,6 +264,7 @@ public class Requetes {
 	   }
 	 
 	 
+	 
 	 public static void ajouterOperations(Operations operation) throws SQLException {
 	      PreparedStatement PreparedStatement = AccesBD.getConnection().prepareStatement("INSERT INTO operations VALUES (?,?,?,?)");
 	      PreparedStatement.setInt(1, operation.getNumero());
